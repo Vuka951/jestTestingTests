@@ -7,10 +7,12 @@ const  vugleDatabase = [
     'cats.com'
 ];
 
-const vugleSearch= (searchInput) => {
-    const matches = vugleDatabase.filter(site => {
+const vugleSearch= (searchInput, db) => {
+    const matches = db.filter(site => {
         return site.includes(searchInput);
     })
     return matches.length > 3 ? matches.slice(0, 3) : matches;
 }
-console.log(vugleSearch('mrr'));
+console.log(vugleSearch('mrr', vugleDatabase));
+
+module.exports = vugleSearch;
