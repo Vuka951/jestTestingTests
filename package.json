@@ -1,0 +1,22 @@
+{
+  "name": "jesttestingtests",
+  "version": "1.0.0",
+  "description": "Just doing some basic tests while learning jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vuka951/jestTestingTests.git"
+  },
+  "author": "Vuka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vuka951/jestTestingTests/issues"
+  },
+  "homepage": "https://github.com/Vuka951/jestTestingTests#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
