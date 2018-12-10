@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Vuka951/jestTestingTests#readme",
   "devDependencies": {
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
   }
 }
