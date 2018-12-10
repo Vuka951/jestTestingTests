@@ -4,7 +4,8 @@
   "description": "Just doing some basic tests while learning jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
